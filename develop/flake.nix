@@ -11,6 +11,7 @@
   inputs.src-nbaser-develop.ref   = "refs/heads/develop";
   inputs.src-nbaser-develop.owner = "D-Nice";
   inputs.src-nbaser-develop.repo  = "nbaser";
+  inputs.src-nbaser-develop.dir   = "";
   inputs.src-nbaser-develop.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
